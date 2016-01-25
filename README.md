@@ -14,7 +14,7 @@
 #### Installation
     vagrant init bugyt/archlinux
     vagrant up --provider libvirt
-<br />
+
 #### Version 1.0.0
 * Pacman package manager
 * OpenSSH
