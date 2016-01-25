@@ -15,15 +15,12 @@
     vagrant init bugyt/archlinux
     vagrant up --provider libvirt
 <br />
-
 #### Version 1.0.0
 * Pacman package manager
 * OpenSSH
 * vagrant user with [Insecure Keypair](https://github.com/mitchellh/vagrant/tree/master/keys)
 * Password-less Sudo
-<br />
 
 #### Issues and feature requests
 Use this github repository for bug reports or  feature requests :
 [https://github.com/bugyt/archlinux](https://github.com/bugyt/archlinux)
-<br />
