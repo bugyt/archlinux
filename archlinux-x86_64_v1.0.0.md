@@ -1,8 +1,7 @@
-# ArchLinux 2016.01.01
+# ArchLinux 2016.01.01 [Box Version 1.0.0]
 ## Clean and minimal Arch Linux x86_64 base box with libvirt or virtualbox provider
 
 #### Release Info
-##### [Version 1.0.0]
 * Current ArchLinux Release: 2016.01.01
 * Included Kernel: 4.3.3
 * Details
