@@ -1,10 +1,15 @@
 # ArchLinux 2016.01.01 [Box Version 1.0.1]
 ## Clean and minimal Arch Linux x86_64 base box with libvirt or virtualbox provider
 
+
+#### Github repository for bug reports or  feature requests
+[https://github.com/bugyt/archlinux/](https://github.com/bugyt/archlinux/)
+
 #### Release Info
 * Current ArchLinux Release: 2016.01.01
 * Included Kernel: 4.3.3
 * Details
+  * Virtual Hard Disk Capacity 20GB, Dynamically allocated
   * Base package
   * Base devel package
   * Grub
@@ -25,9 +30,15 @@
 * [Vagrant](https://www.vagrantup.com/downloads.html)
 
 
-##### Installation
-    vagrant init bugyt/archlinux
-    vagrant up --provider virtualbox
+##### Getting started
+
+Install and connect to the box :
+
+      $ mkdir archbox
+      $ cd archbox
+      $ vagrant init bugyt/archlinux
+      $ vagrant up --provider virtualbox
+      $ vagrant ssh
 <br />
 
 #### libvirt (QEMU-KVM)
@@ -36,11 +47,13 @@
 * [Vagrant](https://www.vagrantup.com/downloads.html)
 * [Vagrant Libvirt Plugin](https://github.com/pradels/vagrant-libvirt#installation)
 
-##### Installation
-    vagrant init bugyt/archlinux
-    vagrant up --provider libvirt
-<br />
+##### Getting started
 
-#### Issues and feature requests
-Use this github repository for bug reports or  feature requests :
-[https://github.com/bugyt/archlinux/issues](https://github.com/bugyt/archlinux/issues)
+Install and connect to the box :
+
+      $ mkdir archbox
+      $ cd archbox
+      $ vagrant init bugyt/archlinux
+      $ vagrant up --provider libvirt
+      $ vagrant ssh
+<br />
